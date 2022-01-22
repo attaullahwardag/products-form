@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="product-image">
+                <img id="product-img" src="no.png" alt="">
+            </div>
+            <div class="formdiv">
+                <form action="">
+                    <div class="form-input">
+                        <label>Brand Name:</label>
+                        <select name="product" id="product">
+                            <option value="select">--Select Brand--</option>
+                            <option value="Nike">Nike</option>
+                            <option value="Addidas">Addidas</option>
+                            <option value="Reebok">Reebok</option>
+                        </select>
+                    </div>
+                    <div class="form-input">
+                        <label>Price:</label>
+                        <input id="price" name="price" type="text" readonly>
+                    </div>
+                    <div class="form-input">
+                        <label>Qty:</label>
+                        <select value="1" name="qty" id="qty">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </div>
+                    <div class="form-input">
+                        <label>Total Amount:</label>
+                        <input id="total" name="total" type="text" readonly>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

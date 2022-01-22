@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    background-color: rgb(245, 243, 247);
+    padding: 210px 0;
+    width: 100%;
+}
+.box{
+    margin:auto;
+    width: 700px;
+    background-color: rgba(235, 224, 223, 0.851);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.product-image img{
+    width: 300px;
+    height: 200px;
+    border-radius: 2px;
+    transition: 0.9s;
+}
+.formdiv{
+    text-align: left;
+}
+.form-input{
+    display: flex;
+    justify-content: flex-end;
+    margin-top:5px;
+
+}
+.form-input label{
+    padding: 10px;
+}
+.form-input input{
+   padding: 10px;
+    
+}
+.form-input select{
+    padding: 10px;
+}
